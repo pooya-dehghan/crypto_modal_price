@@ -1,0 +1,28 @@
+
+
+.symbol__info{
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Mulish";
+}
+
+.symbol__info_bg_even{
+  background-color: #3D3C41;
+}
+
+.symbol__info_bg_odd{
+  background-color: #3F4048;;
+}
+
+.symbol__image{
+  margin-right: -4rem;
+}
+
+.symbol__image > img {
+  width: 60px;
+
+}

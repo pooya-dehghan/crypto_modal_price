@@ -1,0 +1,76 @@
+.modal{
+  background-color: #121212;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 405px;
+  border-radius: 16px;
+  padding: 24px;
+  gap: 20px;
+  font-family: "Mulish";
+}
+
+.modal__heading{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__heading > h3{
+  color: white;
+  font-family: "Mulish";
+}
+  
+.modal__heading > svg{
+  width: 15px;
+  fill: white;
+  stroke: white;
+  cursor: pointer;
+}
+  
+.modal__input{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: row;
+  background-color: #3F4048;
+  padding: .7rem 0;
+  border-radius: 10px;
+}
+.modal__input > svg{
+  color: white;
+  fill: white;
+  width: 30px;
+  margin-left: .7rem;
+
+}
+.modal__input > input{
+  padding: .2rem;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  
+}
+
+.modal__input > input::placeholder{
+  color: white;
+  font-weight: 700;
+}
+
+.modal__prices{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
