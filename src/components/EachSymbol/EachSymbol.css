@@ -19,10 +19,20 @@
 }
 
 .symbol__image{
-  margin-right: -4rem;
 }
 
 .symbol__image > img {
   width: 60px;
+}
 
+.coin_symbol_info{
+  width: 8rem;
+}
+
+.coin_symbol_type{
+  width: 4rem;
+}
+
+.coin_symbol_price{
+  width: 8rem;
 }

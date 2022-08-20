@@ -62,15 +62,15 @@ const EachSymbol = ({ coin, index }: IProps) => {
               }}
             />
           </div>
-          <div>
+          <div className='coin_symbol_info'>
             <p>{Coin?.symbol}</p>
             <p>{coin.name}</p>
           </div>
-          <div>
+          <div className='coin_symbol_type'>
             <p>type</p>
             <p>Spot</p>
           </div>
-          <div>
+          <div className='coin_symbol_price'>
             <p>Price</p>
             <p>{Coin?.last_price}</p>
           </div>
