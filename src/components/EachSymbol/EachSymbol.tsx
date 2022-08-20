@@ -1,17 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Icoin } from '../PriceModal/PriceModal';
 import BtcImg from '../../assets/btcimg.png';
 import './EachSymbol.css';
-interface IProps {
-  coin: Icoin;
-  index: number;
-}
-
-interface ICoinServer {
-  symbol: string;
-  timestamp: number;
-  last_price: string;
-}
+import {IProps , ICoinServer} from '../../types/EachSymbol.types'
 
 const EachSymbol = ({ coin, index }: IProps) => {
   const [Coin, setCoin] = useState<null | ICoinServer>({} as ICoinServer);

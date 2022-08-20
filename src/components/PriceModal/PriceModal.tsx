@@ -5,13 +5,7 @@ import './PriceModal.css';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ReactComponent as SearcgIcon } from '../../assets/magnifying-glass-solid.svg';
 import { ReactComponent as CloseIcon } from '../../assets/xmark-solid.svg';
-
-export interface Icoin {
-  symbol: string;
-  current_price: string;
-  name : string;
-  icon_name :string;
-}
+import { Icoin } from '../../types/PriceModal.types';
 
 const PriceModal = () => {
   const [firstFiveCoin, setFirstFiveCoin] = useState([]);
